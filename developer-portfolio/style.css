@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Outfit:wght@100;400;900&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* outline: 3px solid lightgreen !important; */
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.hero-container{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.hero{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.half{
+    width: 49%;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+h1{
+    margin: 20px 0;
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+
+h3{
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+p{
+    color: #444;
+}
+
+button{
+    padding: 10px 25px;
+    margin: 10px 0;
+    background: linear-gradient(90deg, rgba(247,138,106,1) 0%, rgba(251,100,84,1) 100%);
+    border: none;
+    color: #fff;
+    border-radius: 6%;
+}
+
+span{
+    color: #FCAB11;
+}
+
+.dream-container{
+    margin: 0 auto;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.footer{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+.card-container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cards{
+    max-width: 47%;
+    border-left: 7px solid #FCAB11;
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+    box-shadow: 2px 3px 26px -2px rgba(0,0,0,0.71);
+    margin-bottom: 2rem;
+}
+
+.cards h1{
+    font-size: 2.3rem;
+}
+
+.cards span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.copyright{
+    text-align: center;
+    color: #666;
+}
